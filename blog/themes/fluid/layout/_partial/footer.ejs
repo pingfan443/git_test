@@ -1,0 +1,26 @@
+<footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <!-- <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> -->
+      <a rel="nofollow noopener"><span>pingfan</span></a>
+      <i class="iconfont icon-love" style="color: red;"></i>
+      <a rel="nofollow noopener">
+        <span>blog</span></a>
+      <!-- <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a> -->
+        <div>
+          <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279037970'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279037970%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script>
+        </div>
+     
+    </div>
+    <%- partial('_partial/statistics.ejs') %>
+    <%- partial('_partial/beian.ejs') %>
+    <% if(theme.web_analytics.cnzz) { %>
+      <!-- cnzz Analytics Icon -->
+      <span id="cnzz_stat_icon_<%- theme.web_analytics.cnzz %>" style="display: none"></span>
+    <% } %>
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<%- partial('_partial/scripts.ejs') %>
